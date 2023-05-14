@@ -88,6 +88,20 @@ collections:
                 widget: "string"
                 hint: "Tag name for displaying on the site"
 
+  - name: "pages"
+    label: "Pages"
+    folder: "content/pages/"
+    extensions: "mdx"
+    format: "frontmatter"
+    create: true
+    slug: "{{slug}}"
+    indentifier_field: slug
+    summary: "{{title}}"
+    fields:
+      - label: "Browser Link"
+        name: slug
+        widget: "string"
+
   - name: "posts"
     label: "Posts"
     folder: "content/posts/"
