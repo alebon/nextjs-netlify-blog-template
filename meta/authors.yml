@@ -6,3 +6,6 @@ authors:
   - slug: alexej-bondarenko
     name: Alexej Bondarenko
     introduction: This is some introduction about the author
+  - slug: test-author
+    name: Test Author
+    introduction: This is some text
